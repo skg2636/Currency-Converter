@@ -48,7 +48,7 @@ def convert():
     curr_to = str2.get()
     headers = {
         'x-rapidapi-host': "exchangerate-api.p.rapidapi.com",
-        'x-rapidapi-key': "cf4870ffb2msh8c15d4bf95ac7d8p1a8247jsnc20e05e8f54e"
+        'x-rapidapi-key': "YOUR API KEY"
     }
     response = requests.request('GET', url, headers=headers)
     if response.json()['result'] == 'success':
